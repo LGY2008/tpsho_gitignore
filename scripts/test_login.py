@@ -46,3 +46,5 @@ class TestLogin():
         self.login_page.base_get_screenshot(imgname)
         # 上传图片
         allure.attach("图片",open("./image/"+imgname+".png","rb").read(),allure.attach_type.PNG)
+    def test_008(self):
+        pass
